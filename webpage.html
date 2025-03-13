@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wbpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            /* background-image: url(https://cdn.mos.cms.futurecdn.net/MraCqxwKkGvxKK8QPMuJ64-970-80.jpg.webp); */
+            background-color: black;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .navbar ul{
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+
+        }
+        ul li a{
+            color: white;
+            text-decoration: none;
+        }
+        ul li a:hover {
+        background-color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 35px;
+        width: 80px;      
+        }
+        select{
+            background: transparent;
+            color: white;
+            font-family: sans-serif;
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 15px;
+            width: 50px;
+
+        }
+        button{
+            padding: 7px;
+            margin-top: 15px;     
+        }
+        h1{
+            font-size: 49px;
+            font-weight: 700;
+            font-family: sans-serif;
+            color: white;
+            margin-right: 200px;
+            margin-top: 30px;
+            margin-left: 70px;
+            width: 570px;
+        }
+        h3{
+            font-family: sans-serif;
+            margin-top: 30px;
+            font-size: 19px;
+            font-weight: bold;
+            color: white;
+            margin-left: 70px;
+            line-height: 38px;
+            margin-bottom: 0;
+            
+        }
+        .block1{
+            background-color: rgba(0,0,0,0.5);
+            margin: 0%;
+            padding: 0%;
+            /* height: 585px; */
+        }
+        
+        .circle{
+            color: cornflowerblue;
+            
+        }
+        .block2 {
+            display: flex;
+        }
+        .photo{
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            /* box-shadow: 10px 15px black inset; */
+        }
+        .photo img{
+            display:flex;
+            margin: 5px;
+            margin-bottom: 10px;
+            height: 186px;
+            width: 198px;
+            border-radius: 9px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="block1">
+        <nav class="navbar">
+            <ul>
+                <li><p style="font-size: 20px; color:azure; font-weight:bold; margin-top: 20px             ; margin-left: 10px;">prime video</p></li>
+                <li><a href="./audio.html">Home </a></li>
+                <li><a href="">Movies</a></li>
+                <li><a href="">Tv Shows</a></li>
+                <li><a href="">Live Shows </a></li>
+                <li style="height: 30px; color: gray;">&nbsp &nbsp &nbsp &nbsp |</li>
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-ui-checks-grid"  style="margin-right: 0px; color:white;"viewBox="0 0 16 16">
+                    <path d="M2 10h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1m9-9h3a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-3a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1m0 9a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1zm0-10a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM2 9a2 2 0 0 0-2 2v3a2 2 0 0 0 2 2h3a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2zm7 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-3a2 2 0 0 1-2-2zM0 2a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.354.854a.5.5 0 1 0-.708-.708L3 3.793l-.646-.647a.5.5 0 1 0-.708.708l1 1a.5.5 0 0 0 .708 0z"/>
+                  </svg></li>
+                <li><a href="" style="margin-left:9px;">Subscriptions</a></li>
+                <li></li>
+                <li><a href=""style=" margin-left: 190px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" style="margin-right: 9px;" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                 </svg></a></li>
+                 <li>
+                <select name="select" id="select" >
+                    <option value="Hindi">Hindi</option>
+                    <option value="English">En</option>
+                    <option value="kannada">Kannada</option>
+                    <option value="Telugu">Telugu</option>
+                </select>
+            </li>
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill" style="margin-right:9px; margin-top:7px; color:white;" viewBox="0 0 16 16">
+                <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+              </svg></li>
+                <li><a href="" style="" ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-circle circle" style="margin-right: 5px; margin-left:0px; margin-top:7px; color:white;" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg></a></li>
+                 <li> <button style="font-weight: bold; background-color: rgb(52, 128, 251); border:1px solid rgb(12, 68, 90); border-radius: 5px; color: azure;"  >Join Prime</button></li>
+            </ul>
+        </nav>
+    </div>
+<div class="block2">
+    <div class="prime pc" style="width: 650px; height: 100px; ">
+        <h1>Welcome to Prime <br>  video </h1>
+        <h3 >Join Prime to watch the latest movies, TV shows and <br> </h3>
+        <h3  class="text2"   style="margin-top: 0;">award-winning Amazon Originals</h3>
+        <button style="padding: 12px;font-weight:600; border-radius: 5px;margin-left: 70px; border-style: solid; color: black; font-size: 20px; margin-top:30px;width: 250px; ">Sign in to join prime</button>
+    </div>
+    <div class="photo pc" style="color: azure; width: 300px; height: 300px;">
+        <div class="img1">
+            <img class="one" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/baby-john-et00386190-1733985497.jpg" alt="">
+            <img class="two" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbObqzExWYIDXl7JpeD-sxNarkG0Sd-za_OA&s" alt="">
+        </div> 
+        <div class="img2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVmPp66UAJAvvaiT38oA4_MBRAivbD61jHIw&s" alt="">
+            <img src="https://images.filmibeat.com/img/popcorn/movie_posters/suzhal2-20250211155542-23507.jpg" alt="">
+        </div>
+        <div class="img3">
+            <img src="https://preview.redd.it/marco-movie-new-poster-v0-vphc7hh94h6e1.jpg?width=786&format=pjpg&auto=webp&s=76abc73056174da31933e6beeff612e9b8a2d959" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBU1fTlsAlZwfCyQa8sUPRiA4MAhdUKkd888u6J2Lkxia97YnbCYHJXseNs5jKUwZgIDM&usqp=CAU" alt="">
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
